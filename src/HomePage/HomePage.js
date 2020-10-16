@@ -1,14 +1,15 @@
 import React from 'react';
 
+
 function HomePage() {
   return (
     <main id = "main">
-    <div class="container center">
+    <div className="container center">
 
         <div className="page-area">
         
 
-            <article className="text-box">
+            <article className ="text-box">
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -18,14 +19,14 @@ function HomePage() {
             </article>
             
     
-            <article class="text-box">
+            <article className="text-box">
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </article>
     
-            <article class="text-box">
+            <article className="text-box">
                 <h1>Results</h1>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
@@ -34,14 +35,14 @@ function HomePage() {
                 </p>
             </article>
     
-            <article class="text-box">
+            <article className="text-box">
                 <h1>Free</h1>
                 <p>
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </article>
     
-            <article class="text-box">
+            <article className="text-box">
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -49,16 +50,9 @@ function HomePage() {
                     app will help you with that!
                 </p>
             </article>
-    
-            <div class="text-box">
-                <h1>Pie Chart</h1>
-                <p>
-                    <canvas id="myChart" width="100" height="100"></canvas>
-                </p>
-            </div>
 
         </div>
-
+      
     </div>
 </main>
 

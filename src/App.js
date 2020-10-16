@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,9 +9,15 @@ import {
 import Menu from './Menu/Menu';
 import Hero from './Hero/Hero';
 import HomePage from './HomePage/HomePage';
-import Footer from './Footer/Footer';
+
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+
+import Axios from './Axios/Axios';
+import D3chart from './Axios/D3chart'
+
+import Footer from './Footer/Footer';
+
 
 
 function App() {
@@ -29,9 +35,11 @@ function App() {
          </Route>
          <Route path = "/">
            <HomePage/>
-         </Route>
-       </Switch>
-     </div>
+           <Axios/>
+           <D3chart/>
+          </Route>
+         </Switch>
+         </div>
      <Footer/>
     </Router>
   );
